@@ -1,0 +1,237 @@
+ *{margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 85px;
+    background-color: #0f1111;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    background-image: url(download.png);
+    background-size: cover;
+    height: 50px;
+    width: 175px;
+    margin-left: -40px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box2**/
+.add-first{
+    color: #cccc;
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left:5px;
+}
+.add-icon{
+    display: flex;
+align-items: center;}
+
+/** box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 6px;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{width: 45px;
+justify-content: center;
+display: flex;
+align-items: center;
+font-size: 1.2rem;
+color: black ;}
+.nav-search:hover{border: 2px solid rgb(248, 161, 0);}
+
+/** box4 **/
+span{font-size: 0.7rem;}
+.nav-second {font-size: 0.85rem;
+font-weight: 700;}
+
+/** box5**/
+.nav_cart i {
+    font-size:55px;
+}
+.nav-cart {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/**panel**/
+.panel{height: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.panel-options p { display: inline;
+    margin-left: 10px;
+ }
+ .panel-options{width: 70%;
+font-size: 0.85rem;
+}
+.panel-deals{
+font-weight: 700;}
+
+/** body section**/
+
+.hero-section{
+    background-image: url(body.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-message{background-color: white;
+ color: black;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.85rem;
+width: 94%;
+margin-bottom: -285px;}
+
+/**shop section**/
+.shop-section{display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+    background-color: #d1f8f0;
+}
+.box{
+    border:2px solid black;
+    height:440px;
+    width: 30%;
+    background-color: white; 
+    padding: 10px 0px 15px;
+    margin-top: 15px;  
+}
+.box-img{
+    height: 378px;
+    width:440px;
+    background-size: cover;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.box-content{margin-left: 10px;
+margin-right: 10px;}
+.box-imgnew{
+    height: 383px;
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+.pictureflex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-imgx{
+    height: 410px;
+    width: 180px;
+    background-size: cover;
+    justify-content: space-evenly;
+    
+}
+.xpicture{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+/**footer**/
+footer{
+    margin-bottom: 0px;
+}
+.footerpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom:0px; 
+}
+
+.footerpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 15px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.panelthree{
+    background-color: #222f3d;
+    border-top: 1.5px solid white;
+    color: white;
+    height:88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panellogo{
+    margin-top: 10px;
+    background-image: url(download.png);
+    background-size: cover;
+    height: 65px;
+width: 220px;}
+
+.footerpanel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+   text-align: center;
+}
+.pages{
+    font-size: 0.85rem;
+    padding-top: 25px;
+
+}
+.copyright{
+    font-size: 0.85rem;
+    padding-top: 5px;
+}
